@@ -8,9 +8,10 @@ La respuesta es un JSON con la estructura solicitada
 Los valores de configuracion pueden ser modificados en el archivo **application.properties**
 ## application.properties
 (Archivo de configuración)
-> server.port=8081
-> app.external-url=http://localhost:8080/periodos/api
-
+```
+server.port=8081
+app.external-url=http://localhost:8080/periodos/api
+```
 Para cambiar el puerto, modifique el valor de **server.port**
 La ruta del servicio **Generador_Datos_Desafio_Uno** se define en **app.external-url**
 
